@@ -1,98 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOSSIER 1907</title>
 
-    <style>
-        body{
-            margin:0;
-            background:#d8c49a;
-            font-family:Arial, Helvetica, sans-serif;
-            color:#111;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .container{
-            max-width:900px;
-            margin:80px auto;
-            padding:40px;
-        }
+<title>DOSSIER 1907</title>
 
-        h1{
-            font-size:48px;
-            margin:0;
-            letter-spacing:4px;
-        }
+<style>
 
-        .subtitle{
-            margin-top:8px;
-            color:#444;
-            text-transform:uppercase;
-            letter-spacing:2px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        .report{
-            margin-top:60px;
-            padding:25px;
-            border:2px solid #000;
-            background:#e2d0ab;
-        }
+body{
 
-        .report h2{
-            margin-top:0;
-        }
+    background:#d8c49a;
+    color:#111;
 
-        a{
-            display:inline-block;
-            margin-top:15px;
-            padding:12px 20px;
-            background:#111;
-            color:white;
-            text-decoration:none;
-        }
+    font-family:Georgia, serif;
 
-        a:hover{
-            background:#333;
-        }
+    line-height:1.7;
 
-        footer{
-            margin-top:80px;
-            color:#555;
-            font-size:14px;
-        }
-    </style>
+}
+
+.container{
+
+    width:min(900px,90%);
+    margin:80px auto;
+
+}
+
+header{
+
+    text-align:center;
+    margin-bottom:80px;
+
+}
+
+.logo{
+
+    width:120px;
+    margin-bottom:20px;
+
+}
+
+h1{
+
+    font-size:4rem;
+    letter-spacing:8px;
+
+}
+
+.tagline{
+
+    margin-top:10px;
+
+    text-transform:uppercase;
+    letter-spacing:3px;
+
+    color:#444;
+
+    font-size:.9rem;
+
+}
+
+.description{
+
+    max-width:700px;
+
+    margin:30px auto 0;
+
+    color:#333;
+
+}
+
+.issue{
+
+    background:#e2d0ab;
+
+    border:2px solid #111;
+
+    padding:40px;
+
+    margin-bottom:40px;
+
+}
+
+.issue-number{
+
+    font-size:.9rem;
+
+    letter-spacing:2px;
+
+    color:#555;
+
+}
+
+.issue h2{
+
+    margin:10px 0 20px;
+
+    font-size:2rem;
+
+}
+
+.issue p{
+
+    color:#333;
+
+}
+
+.actions{
+
+    margin-top:30px;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:#fff;
+
+    background:#111;
+
+    padding:14px 24px;
+
+    margin-right:12px;
+
+    transition:.2s;
+
+}
+
+.button:hover{
+
+    background:#333;
+
+}
+
+footer{
+
+    margin:80px 0 40px;
+
+    text-align:center;
+
+    color:#555;
+
+    font-size:.9rem;
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <h1>DOSSIER 1907</h1>
+<header>
 
-    <p class="subtitle">
-        Independent Cyber Threat Intelligence
-    </p>
+<!-- Replace with your seal -->
+<!-- <img src="assets/seal.png" class="logo"> -->
 
-    <div class="report">
+<h1>DOSSIER 1907</h1>
 
-        <h2>D1907-2026-001 — JADEPUFFER</h2>
+<p class="tagline">
 
-        <p>
-            An intelligence dossier examining JADEPUFFER,
-            an AI-driven ransomware proof of concept capable
-            of executing multiple stages of a cyber intrusion.
-        </p>
+Independent Cyber Threat Intelligence
 
-        <a href="reports/D1907-2026-001.pdf">
-            Read Report
-        </a>
+</p>
 
-    </div>
+<p class="description">
 
-    <footer>
-        New intelligence dossiers every Wednesday.
-    </footer>
+Technical intelligence dossiers covering cyber threats, AI security,
+criminal operations, state activity and emerging attack techniques.
+
+</p>
+
+</header>
+
+<section class="issue">
+
+<div class="issue-number">
+
+RELEASE D1907-2026-001
+
+</div>
+
+<h2>
+
+JADEPUFFER
+
+</h2>
+
+<p>
+
+An intelligence dossier examining JADEPUFFER,
+an AI-powered ransomware proof of concept that
+demonstrates how intelligent agents are beginning
+to conduct offensive cyber operations with minimal
+human direction.
+
+</p>
+
+<div class="actions">
+
+<a class="button"
+href="reports/D1907-2026-001.pdf">
+
+Read Dossier
+
+</a>
+
+<a class="button"
+href="reports/D1907-2026-001.png">
+
+Cover
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© DOSSIER 1907
+
+</footer>
 
 </div>
 
